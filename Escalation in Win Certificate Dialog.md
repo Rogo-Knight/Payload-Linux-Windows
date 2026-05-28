@@ -1,7 +1,7 @@
 ### Enumeration
 ```
 nmap -Pn -sC -sV IP
-gobuster dir -u http://<MACHINE_IP> -w /usr/share/wordlists/dirb/common.txt
+gobuster dir -u http://<MACHINE_IP> -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
 dirbuster
 ```
 ### Login
